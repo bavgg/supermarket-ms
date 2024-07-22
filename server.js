@@ -2,7 +2,6 @@ import express from 'express';
 
 import { fileURLToPath } from 'url';
 import path from 'path';
-import exp from 'constants';
 
 const app = express();
 
