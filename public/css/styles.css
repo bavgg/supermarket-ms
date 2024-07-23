@@ -44,10 +44,10 @@
     width: 100%;
     border-color: black;
     background: var(--accent);
-    color: var(--bg-color);
+    color: var(--btn-color);
   }
   form button:hover {
-    background: var(--light);
+    background: var(--secondary-color);
   }
   
   button {
@@ -63,7 +63,7 @@
   button:hover {
     border-color: black;
     background: var(--accent);
-    color: var(--bg-color);
+    color: var(--btn-color);
   }
   
   p, h1, h2, h3, label {
@@ -167,7 +167,7 @@
   border-radius: var(--bd-radius);
   margin-top: .25rem;
   background: var(--bg-default);
-  color: inherit;
+  color: black;
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
@@ -184,9 +184,11 @@
   :root,
   [data-color-scheme="light"] {
     --secondary: #F5F5F5;
-    --accent: #2BA9BC;
+    --accent: #d0d7deb3;
     --tint: #D6F1F5;
     --light: #30b9cf;
+
+    --btn-color: black;
   
     --ct-width: 1024px;
   

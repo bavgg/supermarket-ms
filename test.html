@@ -1,0 +1,23 @@
+<style>
+  #toast {
+    position: fixed;
+    right: 0px;
+    animation: show 2s ease 1 forwards;
+  }
+
+  @keyframes show {
+    0% {
+      transform: translateX(100%);
+    }
+    40% {
+      transform: translateX(-5%);
+    }
+    80% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+</style>
+<div id="toast">this is a toast..</div>

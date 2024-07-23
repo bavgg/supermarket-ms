@@ -1,4 +1,5 @@
 import { Sidebar } from "./ui/Sidebar.js";
+import Transaction from "./ui/Transaction.js";
 
 function Home() {
   return `
@@ -18,7 +19,7 @@ function Body() {
   return `
         ${Sidebar()}
         <main id="main-container">
-        
+
         </main>
     `;
 }
@@ -27,4 +28,4 @@ const body = document.querySelector("body");
 body.innerHTML = Body();
 
 const main_container = document.querySelector("main");
-main_container.innerHTML = Home();
+main_container.innerHTML = Transaction();
